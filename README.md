@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Steps are necessary to get the application up and running.
 
-Things you may want to cover:
+Configure app to start:
 
-* Ruby version
+* Ruby version 3.0.0
 
-* System dependencies
+* Rails version 7.0.0
 
-* Configuration
+* Database use
 
-* Database creation
+  Sqlite3 ore PgSql
 
-* Database initialization
+* Database creation & initialization
+
+  rails db:setup
 
 * How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
+  
+  rails s -p 3000
 
 * Deployment instructions
 
-* ...
+  use basic git settings...
+
+  git push heroku main
+  heroku run rails db:migrate 
+  heroku run rails db:seed
