@@ -167,7 +167,7 @@ Movie.create!([
   }
 ])
 
-genre = ["Action", "Comedy", "Drama", "Romance", "Thriller"
+genre = ["Action", "Comedy", "Drama", "Romance", "Thriller",
          "Fantasy", "Documentary", "Adventure", "Animation",
          "Sci-Fi"]
 genre.each { |name| Genre.create(name: name) }
