@@ -1,5 +1,7 @@
 # README
 
+Demo - https://flix-adk.herokuapp.com/
+
 Steps are necessary to get the application up and running.
 
 Configure app to start:
